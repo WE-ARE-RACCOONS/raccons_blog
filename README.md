@@ -1,144 +1,30 @@
-# morethan-log
+# Tech
+- [🔯 React Context API란? - 혜원](https://efficacious-camel-96c.notion.site/React-Context-API-15fd175a9a3a4f5f9b181a84888fc023?pvs=4)
+- [👻 Jotai 요점 정리 - 혜원](https://efficacious-camel-96c.notion.site/Jotai-a107f3e5e4a04e34a19b030f13376286?pvs=4)
+- [🔍 스타트업을 위한 검색 노출(SEO) 가이드 - 혜원](https://efficacious-camel-96c.notion.site/SEO-b57cf11af5dd475ab29824feaaa7e7ba?pvs=4)
+- [💫 프론트엔드 아키텍처의 가장 최근 트렌드는? - 연수](https://efficacious-camel-96c.notion.site/5407cb14d3de4421a70d1c13c7d74657?pvs=4)
+- [⭐ 2023 JavaScript Rising Stars - 혜원](https://efficacious-camel-96c.notion.site/2023-JavaScript-Rising-Stars-5bf5047873d34fe396b2bda6b303d78b?pvs=4)
+- [🗓️ react-calendar 라이브러리로 달력 구현 및 커스텀하기 - 혜원](https://efficacious-camel-96c.notion.site/react-calendar-b6bca9890ee44acf90f2911f6fcfa2f7?pvs=4)
+- [☠️ 개발자 도구에서 느린 네트워크 환경으로 테스트 하기 - 연수](https://efficacious-camel-96c.notion.site/ac7971f9eb7d4a169f7d57c1d325f0b9?pvs=4)
+- [💻 다양한 콘솔 함수 모음 - 혜원](https://efficacious-camel-96c.notion.site/b63eedcb4de744449a75351fe6ef0387?pvs=4)
+- [✅ 프론트엔드 테스팅과 설계 - 혜원](https://efficacious-camel-96c.notion.site/58e4e3e5aed44d5a9e740cbba925f0fc?pvs=4)
+- [🤡 페이지 흐름을 퍼널로 제어해보기 - 효중](https://efficacious-camel-96c.notion.site/106e38910eef41b7ba7224be4505fb67?pvs=4)
+- [😝 김선배에서 사용되는 모달들을 어떻게 관리할까! - 효중](https://efficacious-camel-96c.notion.site/79037d0608944cfba09b18cb94cf4cd7?pvs=4)
+- [📚 JSON-LD - 효중](https://efficacious-camel-96c.notion.site/JSON-LD-edb671abf4eb41aab1fee81707ef409b?pvs=4)
 
-<img width="1715" alt="image" src="https://user-images.githubusercontent.com/72514247/209824600-ca9c8acc-6d2d-4041-9931-43e34b8a9a5f.png">
+# Insight
+- [👍 시니어 개발자가 말하는, 프론트엔드 업무와 잘하는 프론트엔드 개발자란 - 혜원](https://efficacious-camel-96c.notion.site/930c55fc6f13402ebadfd1ed145dfd5f?pvs=4)
+- [😯 면접관 관점에서 본 좋은 개발자 블로그 - 혜원](https://efficacious-camel-96c.notion.site/775f0bfb1e7e42609cc6d90eb5064d9d?pvs=4)
+- [👍 컬리, 카카오 등 테크리더 9인 추천 도서 30권 - 혜원](https://efficacious-camel-96c.notion.site/9-30-7768de4317824b89bd3c91b06f90e4be?pvs=4)
+- [💯 컴퓨팅 사고와 개발 실력 늘리는 공부법 - 혜원](https://efficacious-camel-96c.notion.site/04af0f9db6b04829a85170d961a83104?pvs=4)
+- [🧐 2023년 회고와 2024년 웹 개발 트렌드 전망 - 혜원](https://efficacious-camel-96c.notion.site/2023-2024-938f45aa139f46548944c89886d38448?pvs=4)
+- [🖥️ 나를 프로그래밍 해보자. - 혜원](https://efficacious-camel-96c.notion.site/e25751828c4446488509b9196e395148?pvs=4)
+- [😯 개발자 경험(Dex)이 주목받는 시대 - 혜원](https://efficacious-camel-96c.notion.site/Dex-3c1ece1b57ed494981a0c5afb1302084?pvs=4)
 
-Next.js static blog using Notion as a Content Management System (CMS). Supports both Blog format Post as well as Page format for Resume. Deployed using Vercel.
+# Team
+- [🤔 좋은 개발 리더가 되기 위해 고민해 본 것들 - 혜원](https://efficacious-camel-96c.notion.site/9bc9b1fa0185474cacceb7275c04defc?pvs=4)
+- [🌀『처음 리더가 된 당신에게』리뷰 - 혜원](https://efficacious-camel-96c.notion.site/f22cf927b2d94490a7185176147123ce?pvs=4)
+- [📚 적극적인 코드 리뷰 문화를 위한 조금 특별한 스터디 도입기(LG 유플러스 아이들나라) - 혜원](https://efficacious-camel-96c.notion.site/LG-3eaaeb43ee734a2299628f644a9b8d7e?pvs=4)
 
-[Demo Blog](https://morethan-log.vercel.app) | [Demo Resume](https://morethan-log.vercel.app/resume)
-
-## Features
-
-**📒 Writing posts using notion**
-
-- No need of commiting to Github for posting anything to your website.
-- Posts made on Notion are automaticaly updated on your site.
-
-**📄 Use as a page as resume**
-
-- Useful for generating full page sites using Notion.
-- Can be used for Resume, Portfolios etc.
-
-**👀 SEO friendly**
-
-- Dynamically generates OG IMAGEs (thumbnails!) for posts. ([og-image-korean](https://github.com/morethanmin/og-image-korean)).
-- Dynamically creates sitemap for posts.
-
-**🤖 Customisable and Supports various plugin through CONFIG**
-
-- Your profile information can be updated through Config. (`site.config.js`)
-- Plugins support includes, Google Analytics, Search Console and also Commenting using Github Issues(Utterances) or Cusdis.
-
-## Getting Started
-
-1. Star this repo.
-2. [Fork](https://github.com/morethanmin/morethan-log/fork) the repo to your Profile.
-3. Duplicate [this Notion template](https://morethanmin.notion.site/12c38b5f459d4eb9a759f92fba6cea36?v=2e7962408e3842b2a1a801bf3546edda), and Share to Web.
-4. Copy the Web Link and keep note of the Notion Page Id from the Link which will be in this format [username.notion.site/`NOTION_PAGE_ID`?v=`VERSION_ID`]. 
-5. Clone your forked repo and then customize `site.config.js` based on your preference.
-6. Deploy on Vercel, with the following environment variables.
-
-   - `NOTION_PAGE_ID` (Required): The Notion page Id got from the Share to Web URL. This is not the entire URL, but just the NOTION_PAGE_ID part as shown above.
-   - `NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID` : For Google analytics Plugin.
-   - `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` : For Google search console Plugin.
-   - `NEXT_PUBLIC_NAVER_SITE_VERIFICATION` : For Naver search advisor Plugin.
-   - `NEXT_PUBLIC_UTTERANCES_REPO` : For Utterances Plugin.
-
-## 10 Steps to build your own morethan-log (by 23.06.23)
-
-<details>
-   <summary> Click to see guide </summary>
-   
-   0. Prepare Notion, Vercel account.
-
-   1. ⭐ `Star` and `Fork` this repo.
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/b0421776-2bfe-42bc-ae31-d90206fd5789' width = '500'>
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/185a8e4c-4ae2-4a38-b6f4-dc2a06a45c28' width = '500'>
-
-   2. As you `click` the [Notion template](https://quasar-season-ed5.notion.site/12c38b5f459d4eb9a759f92fba6cea36?v=2e7962408e3842b2a1a801bf3546edda), you will see this notion page in your browser. Click `Duplicate` button(복제 in image) in right top.
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/a5375429-28f0-4bba-a355-0d391cad58db' width = '500'>
-
-   3. And you will see `notion page in notion app` in your account.
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/09af5533-43d9-48e5-95eb-dcac84c97c1f' width = '500'>
-
-   4. Click `Share` and `Publish` in right top, and check web link. (Copy web link)
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/886fe4a2-79ca-4dbc-b1e1-93984e7e3f44' width = '500'>
-   
-   5. `Modify` **site.config.js** file in **your** forked repo.
-   > 💡 NOTE. I changed **2 RED PART**
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/3d9c0da5-92bc-4372-8752-7bfc810b4986' width = '500'>
-
-   6. Move and `login` to vercel.
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/07742ad0-4766-43b0-9ebd-5311f9711bc2' width = '500'>
-
-   7. `Build` new project using **Add New...**
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/517d46be-c9bf-4181-aaa5-e9bd2fcdc822' width = '500'>
-
-   8. `Import` **your forked morethan-log repository**
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/07742ad0-4766-43b0-9ebd-5311f9711bc2' width = '500'>
-
-   9. `Add` **Environment variabes** to vercel project
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/703b50a3-3a90-4915-ab73-1baca4c285f8' width = '500'>
-
-   10. `Wait` for the deployment to complete. After the deployment is successful, you should see an image like the one below.
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/a7d72caa-4354-4f81-9577-c773faeed7c6' width = '500'>
-
-   🥳 Congratulations. Now check out your blog
-   
-   <img src='https://github.com/jhk0530/morethan-log/assets/6457691/3876a273-a270-47ef-a2ad-663519d9e537' width = '500'>
-
-</details>
-
-## FAQ
-
-<details>
-   <summary> Click to see FAQ </summary>
-   Q1: If you finish making avatar.svg, How to make favicon.ico and apple-touch-icon.png?
-   
-   A1: check out https://www.favicon-generator.org/
-   
-   Q2: Is it necessary to set up a sitemap file?   
-   A2: The system will dynamically create a sitemap.xml, so there is no need for manual setup.
-
-   Q3: Why don’t Notion posts update automatically?   
-   A3: Please set the revalidateTime in site.config.js and observe how long it takes to update.
-   
-   Q4: What should be entered for NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID and NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION in site.config.js?
-   A4: You can check https://github.com/morethanmin/morethan-log/issues/203. Please note that updates may take some time to take effect after setting.
-
-If you encounter any other issues, please feel free to add them to the GitHub README to assist future users. We look forward to your contributions!
-
-</details>
-
-## Contributing
-
-Check out the [Contributing Guide](.github/CONTRIBUTING.md).
-
-### Contributors
-
-<!--
-Contributors template:
-<a href="https://github.com/{username}"><img src="{src}" width="50px" alt="{username}" /></a>&nbsp;&nbsp;
--->
-
-<a href="https://github.com/morethanmin/morethan-log/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=morethanmin/morethan-log" />
-</a>
-
-## Support
-
-morethan-log is an MIT-licensed open source project. It can grow thanks to the sponsors and support from the amazing backers.
-
-### Sponsors
-
-<!--
-Sponsors template:
-<a href="https://github.com/{uesrname}"><img src="{src}" width="50px" alt="{username}" /></a>&nbsp;&nbsp;
--->
-
-<p>
-<a href="https://github.com/siyeons"><img src="https://avatars.githubusercontent.com/u/35549653?v=4" width="50px" alt="siyeons" /></a>&nbsp;&nbsp;
-</p>
-
-## License
-
-The [MIT License](LICENSE).
+# Original
+- [🎓 대학원김선배 프로젝트 회고 - 혜원](https://velog.io/@leehyewon0531/%EB%8C%80%ED%95%99%EC%9B%90%EA%B9%80%EC%84%A0%EB%B0%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0)
